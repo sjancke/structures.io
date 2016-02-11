@@ -1,0 +1,11 @@
+[
+  {"name":"A.B.C","size":3938,"imports":["A.B.X", "A.B.D", "A.B.E", "A.B.F", "A.B.G", "D.E.F", "D.E.G", "X.Y.Z"]},
+  {"name":"A.B.D","size":3938,"imports":[]},
+  {"name":"A.B.E","size":3938,"imports":[]},
+  {"name":"A.B.F","size":3938,"imports":[]},
+  {"name":"A.B.G","size":3938,"imports":[]},
+  {"name":"A.B.X","size":3938,"imports":[]},
+  {"name":"D.E.F","size":3938,"imports":["D.E.G", "X.Y.Z"]},
+  {"name":"D.E.G","size":3938,"imports":["X.Y.Z"]},
+  {"name":"X.Y.Z","size":3938,"imports":["A.B.C"]}
+]
